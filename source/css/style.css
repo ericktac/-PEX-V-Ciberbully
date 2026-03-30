@@ -653,6 +653,9 @@ p{line-height: 0;}
   opacity: 1;
   transform: translateY(0);
 }
+.bulinador{
+    line-height: 1;
+}
 /* 📱 RESPONSIVIDADE GERAL */
 @media (max-width: 768px) {
 
