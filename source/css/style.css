@@ -427,8 +427,7 @@ p{line-height: 0;}
 #OQ_Content_Faixa{
     background-color: var(--cor-secundaria);
     width: 15%;
-    height: 119%;
-    margin-top: -95px;
+    height: 150%;
 
 }
 #OQ_Content_Info{
