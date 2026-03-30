@@ -1,0 +1,16 @@
+Titulo:
+Desenvolvimento de uma Landing Page Educativa sobre Boas Práticas no Uso da Tecnologia
+
+Objetivo Geral:
+Desenvolver uma landing page educativa com o objetivo de promover a conscientização sobre boas práticas no uso da tecnologia, abordando segurança
+digital, privacidade e comportamento responsável online.
+
+Objetivos finais:
+1. Identificar o nível de conhecimento digital do público-alvo.
+2. Apresentar conteúdos educativos sobre segurança digital.
+3. Criar um ambiente web acessível e responsivo.
+4. Implementar um quiz interativo para avaliação de conhecimento.
+5. Avaliar o impacto da plataforma por meio de questionário.
+
+Publico alvo:
+O publico alvo escolhido foi estudantes do ensino médio
