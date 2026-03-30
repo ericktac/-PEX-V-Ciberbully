@@ -22,14 +22,14 @@ body{
 #HOME{
     background-color: var(--cor-fundo);
     width: 100%;
-    height: 750px;
+    min-height: 750px;
     border-bottom: solid 3px var(--cor-primaria);
     margin:0;
 }
 #ESTATISTICA{
     background-color: var(--cor-secundaria);
     width: 100%;
-    height: 750px;
+    min-height: 750px;
     position: relative;
     z-index: 1;
     display: flex;
@@ -39,23 +39,22 @@ body{
 #APRESENTACAO{
     background-color: var(--cor-fundo-secundario);
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     flex-direction: row;
 }
 #CONSEQUENCIAS{
     background-color: var(--cor-secundaria);
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 2;
 }
 #OQUE_FAZER{
     background-color: var(--cor-fundo-secundario);
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     position: relative;
     z-index: 1;
 
@@ -65,14 +64,14 @@ body{
 #CHAMADA{
     background-color: var(--cor-secundaria);
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
 }
 #CONCLUSAO{
     background-color: var(--cor-fundo);
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     position: relative;
     z-index: 2;
     display: flex;
@@ -209,9 +208,8 @@ body{
 #Imagem_Home{
     width: 45%;
     height: 630px;
-    display: absolute;
     margin-top: 170px;
-    margin-right: -505px;
+    padding-left: 450px;
 
 }
 #chat{
@@ -262,7 +260,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 600px;
+    min-height: 250px;
     justify-content: space-around;
     align-items: center;
 }
@@ -335,7 +333,7 @@ p{line-height: 0;}
 }
 #A_Content2_chat{
     width: 400px;
-    height:550px;
+    height:400px;
     background-color: var(--cor-secundaria);
     position: absolute;
     z-index: 1;
@@ -345,6 +343,7 @@ p{line-height: 0;}
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    margin-top: 470px;
 }
 
 #C_Content{
@@ -393,8 +392,8 @@ p{line-height: 0;}
 #C_Content_IMG{
     width: 55%;
     height: 75%;
-    margin-top:30%;
-    margin-left: 60%;
+    margin-top:70%;
+    margin-left: 70%;
 }
 #OQ_Titulo{
     width: 100%;
@@ -421,13 +420,13 @@ p{line-height: 0;}
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
 }
 #OQ_Content_Faixa{
     background-color: var(--cor-secundaria);
-    width: 15%;
-    height: 150%;
+    width: 150px;
+    min-height: 500px;
 
 }
 #OQ_Content_Info{
@@ -438,7 +437,7 @@ p{line-height: 0;}
     font-size: 1.3rem;
     width: 80%;
     font-weight: bold;
-    line-height: 0.9rem;
+    line-height: 1;
 }
 .Link_{
     color: var(--cor-texto-terciario);
@@ -788,6 +787,7 @@ p{line-height: 0;}
     .Estatistica_Content{
         display: flex;
         flex-direction: column;
+        max-height: 300px;
     }
     .Estatistica_Content_Arrow{
         width: 100%;
