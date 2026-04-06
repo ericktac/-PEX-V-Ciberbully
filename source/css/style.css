@@ -575,8 +575,8 @@ p{line-height: 0;}
 /* Selecionado */
 .question input[type="radio"]:checked + text,
 .question input[type="radio"]:checked + span,
-.question input[type="radio"]:checked {
-  /* fallback */
+.question input[type="radio"]:checked {  /* fallback */
+  font-weight: normal;
 }
 
 /* Hack para seleção visual */
@@ -790,7 +790,6 @@ p{line-height: 0;}
         width: 80%;
         height: auto;
     }
-    #C_Content_Text{}
     #C_Titulo{
         font-size: 2rem;
         text-align: center;
