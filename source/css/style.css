@@ -733,6 +733,7 @@ p{line-height: 0;}
     }
     .Estatistica_Content_Arrow{
         width: 100%;
+        min-height: 100px;
         clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
     }
     .info{
